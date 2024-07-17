@@ -23,8 +23,8 @@ body {
 
 :root {
     --primaryColor : #ffffff;
-    --secondaryColor : #be9c79;
-    --textDarkColor : #000000;
+    --secondaryColor : #f3c326;
+    --fontColor : #1c3c74;
     --textLightColor : #EFEFEF;
     --lightColor : #FFFFFF;
     --headingFont : 54px;
@@ -135,7 +135,7 @@ footer {
 }
 
 .topBar {
-    background-color: #f3c326;
+    background-color: var(--secondaryColor);
     padding: 15px 0;
     font-family: "Barlow", sans-serif;
 }
@@ -296,7 +296,7 @@ footer {
 }
 
 .button {
-    background-color: #f3c326;
+    background-color: var(--secondaryColor);
     padding: 13px 25px;
     font-size: 1rem;
     font-weight: 600;
@@ -364,11 +364,11 @@ footer {
 
 .newsPaper {
     border: 5px solid #1c3c74 ;
-    padding: 10px 0 10px 20px;
+    padding: 10px 0 10px 0;
 }
 
 .flex2 h3 {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     text-align: center;
 }
 
@@ -377,5 +377,47 @@ footer {
 }
 
 .flex2 img {
-    width: 58%;
+    width: 55%;
 }
+
+.aboutCard {
+    background-color: aqua;
+}
+
+.aluminiAchive , 
+.participation ,
+.award ,
+.industry {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+    border: 1px solid black;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.cardTitle i {
+    font-size: 2.5rem;
+    color: rgb(80, 80, 80);
+}
+
+.cardBody {
+    padding-top: 40px;
+}
+
+.cardBody h4 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.cardBody span {
+    color: red;
+    font-size: 14px;
+}
+
+.cardBody p {
+    font-size: 16px;
+}
+
