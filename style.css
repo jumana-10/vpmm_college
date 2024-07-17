@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+html {
+    /* font-size: 62.5%; */
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    /* font-family: 'Merienda', cursive; */
+    /* font-family: "Nunito Sans", sans-serif; */
+    font-family: "Barlow", sans-serif;
+}
+
+:root {
+    --primaryColor : #ffffff;
+    --secondaryColor : #be9c79;
+    --textDarkColor : #000000;
+    --textLightColor : #EFEFEF;
+    --lightColor : #FFFFFF;
+    --headingFont : 54px;
+    --sebHeadingFont : 18px;
+    --paragraph : 16px;
+    --linkButton : 16px;
+    --contactHeight : 5vh
+}
+
+.align {
+    max-width :1200px;
+    margin: auto;
+    padding: 0 3rem;
+}
+
+.componentSpacing {
+    padding-top: 3rem;
+}
+
+/* Default code */
+
+/* Project code */
+
+/* parent container */
+
+header {
+    width: 100%;
+    height: auto;
+}
+
+main {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+}
+
+/* parent container end */
+
+/* grid */
+.grid-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+/* grid end */
+
+/* flex */
+.d-flexNav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d-flex-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.d-flex-col-start {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.d-flex-start {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+
+/* flex end */
+
+/* nav */
+
+.navBar {
+    /* background-color: rgb(49, 46, 46); */
+}
+
+.topBar {
+    background-color: #f3c326;
+    padding: 15px 0;
+    font-family: "Barlow", sans-serif;
+}
+
+.phoneNumber {
+    margin-left: 14%;
+}
+
+.phoneNumber i {
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    padding: 5px 8px;
+}
+
+.phoneNumber h4 {
+    font-weight: 600;
+    margin-left: 8px;
+}
+
+.d-flexS {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+
+.topBarLinks {
+    margin-right: 10%;
+}
+
+.topBarLinks li {
+    list-style-type: none;
+}
+
+.topBarLinks li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.border {
+    border: 1px solid black;
+    padding: 4px 8px;
+    border-radius: 10px;
+    background-color: rgb(34, 34, 39);
+}
+
+.fa-instagram {
+    border-radius: 50%;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 5px 8px;
+}
+
+.fa-square-facebook {
+    border-radius: 50%;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 5px 8px;
+}
+
+.fa-youtube {
+    color: red;
+    background-color: #ffffff;
+    border-radius: 50%;
+    padding: 5px 6px;
+}
+
+/* TOPBAR END */
+
+/* MiddleBar */
+
+.middleBar {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.logoLinks {
+    /* width: 20%; */
+}
+
+.logo img {
+    width: 300px;
+    margin-left: 20%;
+}
+
+.contactLinks {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contactBar {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.contactLinks i {
+    color: red;
+    font-size: 30px;
+}
+
+.emailContent , 
+.callContent ,
+.locationContent {
+    margin-left: 15px;
+}
+
+.contactBar h4 {
+    font-size: 20px;
+    font-family: "Barlow", sans-serif;
+}
+
+.email , .call {
+    /* background-color: aqua; */
+    border-right: 1px solid black;
+    padding: 5px 35px 5px 5px;
+}
+
+/* middleBar end */
+
+/* BottomBar */
+
+.bottomBar {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navLinks {
+    width: 60%;
+    /* background-color: transparent; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 13px;
+    margin-left: 20px;
+}
+
+.navLinks li {
+    list-style-type: none;
+}
+
+.navLinks li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.button {
+    background-color: #f3c326;
+    padding: 13px 25px;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+}
+
+/* BottomBar end */
+
+/* hero section */
+
+.bgVideo {
+    width: 100%;
+    height: auto;
+}
+
+.text {
+    border: 1px solid black;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Hero Section End */
+
+/* About */
+
+.advantageContainer {
+    /* background-color: aquamarine; */
+}
+
+.part1 {
+    display: flex;
+}
+
+.flex1 {
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.adTitle {
+    margin: 20px;
+    font-size: 1.8rem;
+}
+
+.adTitle span {
+    color: #1c3c74;
+}
+
+.adBody p {
+    margin: 0 20px 10px 5px;
+    line-height: 1.8;
+}
+
+.achievement {
+    width: 30%;
+    margin-top: 30px;
+}
+
+.flex2 {
+    /* width: 15%; */
+}
+
+.newsPaper {
+    border: 5px solid #1c3c74 ;
+    padding: 10px 0 10px 20px;
+}
+
+.flex2 h3 {
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.flex2 span {
+    color: #1c3c74;
+}
+
+.flex2 img {
+    width: 58%;
+}
