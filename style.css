@@ -25,7 +25,7 @@ body {
     --primaryColor : #ffffff;
     --secondaryColor : #f3c326;
     --fontColor : #1c3c74;
-    --textLightColor : #EFEFEF;
+    --textColor : #7491c2;
     --lightColor : #FFFFFF;
     --headingFont : 54px;
     --sebHeadingFont : 18px;
@@ -351,6 +351,7 @@ footer {
 .adBody p {
     margin: 0 20px 10px 5px;
     line-height: 1.8;
+    color: var(--textColor);
 }
 
 .achievement {
@@ -405,11 +406,13 @@ footer {
 
 .cardBody {
     padding-top: 40px;
+    color: blue;
 }
 
 .cardBody h4 {
     font-size: 16px;
     font-weight: 700;
+    color: #000000;
 }
 
 .cardBody span {
@@ -419,5 +422,101 @@ footer {
 
 .cardBody p {
     font-size: 16px;
+    line-height: 1.2;
 }
 
+/* advandage End */
+
+/* about */
+
+.spacing {
+    padding: 3rem 0;
+}
+
+.aboutContent h2 {
+    font-size: 1.9rem;
+    color: var(--fontColor);
+}
+
+.aboutContent p {
+    color: var(--textColor);
+    line-height: 1.8;
+    margin: 5px 30px 5px 0;
+}
+
+/* about end */
+
+/* News & update */
+
+.newsUpdateContainer {
+    background-color:rgb(240, 240, 240);   
+}
+
+.newsUpdateTitle {
+    margin-bottom: 40px;
+}
+
+.newsUpdateTitle h2 {
+    font-size: 2rem;
+}
+
+.newsUpdateTitle hr {
+    height: 2px;
+    width: 10%;
+    margin-top: 20px;
+    color: #f3c326;
+}
+
+.newsUpdateTitle span {
+    color: var(--fontColor);
+}
+
+.circular {
+    border: 1px solid black;
+    margin-right: 22%;
+    background-color: #ffffff;
+}
+
+.circularTitle h3 {
+    text-align: center;
+}
+
+.card1 ,
+.card2 ,
+.card3 ,
+.card4 ,
+.card5 ,
+.card6
+{
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.date {
+    border: 1px solid rgb(219, 33, 33);
+    padding: 0 10px 10px 10px;
+    background-color: var(--fontColor);
+    color: #ffffff;
+}
+
+.date p {
+    margin: 10px 0;
+}
+
+.new span {
+    color: red;
+}
+
+.new p {
+    padding: 0 5px 40px 15px;
+}
+
+.newsEvents {
+    border: 1px solid black;
+    margin-left: 22%;
+    background-color: #ffffff;
+}
+
+.newsEventsTitle h3 {
+    text-align: center;
+}
