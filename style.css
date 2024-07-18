@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -22,20 +22,20 @@ body {
 }
 
 :root {
-    --primaryColor : #ffffff;
-    --secondaryColor : #f3c326;
-    --fontColor : #1c3c74;
-    --textColor : #7491c2;
-    --lightColor : #FFFFFF;
-    --headingFont : 54px;
-    --sebHeadingFont : 18px;
-    --paragraph : 16px;
-    --linkButton : 16px;
-    --contactHeight : 5vh
+    --primaryColor: #ffffff;
+    --secondaryColor: #f3c326;
+    --fontColor: #1c3c74;
+    --textColor: #7491c2;
+    --lightColor: #FFFFFF;
+    --headingFont: 54px;
+    --sebHeadingFont: 18px;
+    --paragraph: 16px;
+    --linkButton: 16px;
+    --contactHeight: 5vh
 }
 
 .align {
-    max-width :1200px;
+    max-width: 1200px;
     margin: auto;
     padding: 0 3rem;
 }
@@ -87,6 +87,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+
 /* grid end */
 
 /* flex */
@@ -120,13 +121,30 @@ footer {
 
 .d-flex-start {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     justify-content: flex-start;
     align-items: center;
     text-align: center;
 }
 
 /* flex end */
+
+/* underline */
+
+.underline {
+    background-color: #f3c326;
+    width: 10%;
+    height: 3px;
+}
+
+.underlineAd {
+    width: 40%;
+    height: 3px;
+    background-color: #f3c326;
+    margin-top: 10px;
+}
+
+/* underline end */
 
 /* nav */
 
@@ -243,8 +261,8 @@ footer {
     font-size: 30px;
 }
 
-.emailContent , 
-.callContent ,
+.emailContent,
+.callContent,
 .locationContent {
     margin-left: 15px;
 }
@@ -254,7 +272,8 @@ footer {
     font-family: "Barlow", sans-serif;
 }
 
-.email , .call {
+.email,
+.call {
     /* background-color: aqua; */
     border-right: 1px solid black;
     padding: 5px 35px 5px 5px;
@@ -321,7 +340,7 @@ footer {
 
 /* Hero Section End */
 
-/* About */
+/* Advantage */
 
 .advantageContainer {
     /* background-color: aquamarine; */
@@ -364,7 +383,7 @@ footer {
 }
 
 .newsPaper {
-    border: 5px solid #1c3c74 ;
+    border: 5px solid #1c3c74;
     padding: 10px 0 10px 0;
 }
 
@@ -385,9 +404,9 @@ footer {
     background-color: aqua;
 }
 
-.aluminiAchive , 
-.participation ,
-.award ,
+.aluminiAchive,
+.participation,
+.award,
 .industry {
     /* display: flex;
     justify-content: center;
@@ -449,7 +468,7 @@ footer {
 /* News & update */
 
 .newsUpdateContainer {
-    background-color:rgb(240, 240, 240);   
+    background-color: rgb(240, 240, 240);
 }
 
 .newsUpdateTitle {
@@ -458,13 +477,7 @@ footer {
 
 .newsUpdateTitle h2 {
     font-size: 2rem;
-}
-
-.newsUpdateTitle hr {
-    height: 2px;
-    width: 10%;
-    margin-top: 20px;
-    color: #f3c326;
+    margin-bottom: 10px;
 }
 
 .newsUpdateTitle span {
@@ -481,13 +494,12 @@ footer {
     text-align: center;
 }
 
-.card1 ,
-.card2 ,
-.card3 ,
-.card4 ,
-.card5 ,
-.card6
-{
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6 {
     border: 1px solid black;
     margin-bottom: 10px;
 }
@@ -520,3 +532,150 @@ footer {
 .newsEventsTitle h3 {
     text-align: center;
 }
+
+/* new Update end */
+
+/* programms */
+
+.programOffer h2 {
+    font-size: 2rem;
+    margin-top: 30px;
+}
+
+.programOffer span {
+    color: #1c3c74;
+}
+
+.underPostGraduate {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: 2rem 6rem;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.underGraduate {
+    margin: 10px;
+}
+
+.ugHeading h3 {
+    font-size: 2rem;
+    margin: 20px;
+}
+
+.ugHeading img {
+    width: 80%;
+    border-radius: 25% 0;
+    margin-left: 10%;
+}
+
+.underGraduateContent {
+    padding: 0 20px 0 50px;
+}
+
+.underGraduateContent p {
+    padding: 15px 0;
+}
+
+.line {
+    width: 100%; 
+    height: 1px;
+    background-color: #e6e6e6;
+}
+
+/* postgraduate */
+
+.postGraduate {
+    margin: 0 10px;
+}
+
+.pgHeading h3 {
+    font-size: 2rem;
+    margin: 20px;
+}
+
+.pgHeading img {
+    width: 80%;
+    border-radius: 25% 0;
+    margin-left: 10%;
+}
+
+.postGraduateContent {
+    padding: 0 20px 0 50px;
+}
+
+.postGraduateContent p {
+    padding: 15px 0;
+}
+
+.graduateButton button {
+    padding: 12px 20px;
+    background-color: #da2032;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.courseDetails {
+    background-color: #333b41;
+    margin: 30px 0;
+    color: #ffffff;
+}
+
+.details{
+    padding: 40px;
+}
+
+.rank h2 {
+    font-size: 4rem;
+}
+
+.rank p {
+    font-size: 18px;
+}
+
+/* programms */
+
+/* event */
+
+.events {
+    /* background-color: #f3c326; */
+}
+
+.eventHeading span {
+    color: #1c3c74;
+}
+
+.eventHeading h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.eventDetails {
+    padding: 50px 0;
+}
+
+.eventVedio {
+    margin: 10px;
+}
+
+/* event end */
+
+/* initiatives */
+
+.initiativesLogos {
+    background-color: #f3c326;
+}
+
+.initiativesLogos img {
+    background-color: #da2032;
+    width: 70%;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.pathasala img {
+    width: 20%;
+}
+
+
