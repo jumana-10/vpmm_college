@@ -408,10 +408,6 @@ footer {
 .participation,
 .award,
 .industry {
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column; */
     border: 1px solid black;
     padding: 20px;
     margin: 15px;
@@ -663,19 +659,79 @@ footer {
 
 /* initiatives */
 
-.initiativesLogos {
-    background-color: #f3c326;
+.initiatives h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
 }
 
-.initiativesLogos img {
-    background-color: #da2032;
-    width: 70%;
+.initiatives span {
+    color: var(--fontColor);
+}
+
+.initiativesLogos {
+    margin: 3rem;
+}
+
+.initiativesLogos img { 
+    background-color: #d1d1d1;
+    width: 100%;
     border: 1px solid;
+    border-radius: 10px;
+} 
+
+.logos {
+    padding: 30px;
+}
+
+.ndl img {
+    background-color: #d1d1d1;
+    width: 60%;
+    padding: 20px 0; 
     border-radius: 10px;
 }
 
-.pathasala img {
-    width: 20%;
+.ugc img {
+    width: 90%;
 }
+
+.ugc img {
+    width: 70%;
+}
+
+.pmkvy img {
+    width: 95%;
+}
+
+.swayam img {
+    width: 65%;
+}
+
+/* .pathasala img {
+    width: 10%;
+} */
+
+.aishe img {
+    width: 70%;
+}
+
+/* initiatives end */
+
+/* footer */
+
+.contactIconsContainer {
+    background-color: #da2032;
+}
+
+.contactIcons {
+    background-color: #f3c326;
+    padding: 3rem 2rem;
+}
+
+.heading h2 {
+    font-size: 1.5rem;
+}
+
+
+
 
 
