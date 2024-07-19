@@ -25,7 +25,7 @@ body {
     --primaryColor: #ffffff;
     --secondaryColor: #f3c326;
     --fontColor: #1c3c74;
-    --textColor: #7491c2;
+    --textColor: #9299a9;
     --lightColor: #FFFFFF;
     --headingFont: 54px;
     --sebHeadingFont: 18px;
@@ -370,7 +370,7 @@ footer {
 .adBody p {
     margin: 0 20px 10px 5px;
     line-height: 1.8;
-    color: #8b95a7;
+    color: var(--textColor);
     font-weight: 500;
 }
 
@@ -430,7 +430,7 @@ footer {
 
 .cardBody {
     padding-top: 30px;
-    color: #7491c2;
+    color: var(--textColor);
     font-weight: 500;
 }
 
@@ -467,8 +467,8 @@ footer {
     /* color: var(--textColor); */
     line-height: 1.8;
     margin: 5px 15px 5px 0;
-    color: #7491c2;
-    font-weight: 400;
+    color: var(--textColor);
+    font-weight: 500;
 }
 
 /* about end */
@@ -528,6 +528,8 @@ footer {
 
 .date p {
     margin: 10px 0;
+    font-size: 14px;
+    font-weight: 600;
 }
 
 .new ,
@@ -763,6 +765,7 @@ footer {
 .contactIcons .contactLinks {
     /* background-color: #7d92b7; */
     padding: 10px 10% 10px 10px;
+    height: 80vh;
 }
 
 .heading h2 {
