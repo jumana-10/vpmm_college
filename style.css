@@ -121,7 +121,7 @@ footer {
 
 .d-flex-start {
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     text-align: center;
@@ -200,21 +200,21 @@ footer {
     background-color: rgb(34, 34, 39);
 }
 
-.fa-instagram {
+.instagramNav {
     border-radius: 50%;
     background-color: #ffffff;
     color: #000000;
     padding: 5px 8px;
 }
 
-.fa-square-facebook {
+.facebookNav {
     border-radius: 50%;
     background-color: #ffffff;
     color: #000000;
     padding: 5px 8px;
 }
 
-.fa-youtube {
+.youtubeNav {
     color: red;
     background-color: #ffffff;
     border-radius: 50%;
@@ -723,15 +723,87 @@ footer {
 }
 
 .contactIcons {
-    background-color: #f3c326;
-    padding: 3rem 2rem;
+    background-color: #0b306e;
+    padding: 3rem 2.5rem 0 2.5rem;
+    border-bottom: 1px solid gray;
+}
+
+.contactIcons .contactLinks {
+    /* background-color: #7d92b7; */
+    padding: 10px 10% 10px 10px;
 }
 
 .heading h2 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
+    color: #ffffff;
+    margin-bottom: 15px;
 }
 
+.heading p {
+    font-size: 1rem;
+    margin-right: 10%;
+    color: #748196;
+    line-height: 1.8;
+}
 
+.quickContact span {
+    color: #ffffff;
+    font-weight: 500;
+}
 
+.contactIcons .heading li {
+    list-style-type: none;
+}
 
+.contactIcons .heading li a {
+    text-decoration: none;
+    color:#748196 ;
+    line-height: 2.3;
+    font-weight: 500;
+}
 
+.copyrightContainer {
+    background-color: #0b2c64;
+    padding: 2.5rem 6rem;
+}
+
+.copyRightLinks {
+    /* background-color: #d1d1d1; */
+}
+
+.copyRight p {
+    color:#748196;
+    font-weight: 700;
+}
+
+.copyRight span {
+    color: #06ff40;
+}
+
+.d-flexFooter {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.socialLinks {
+}
+
+.socialLinks li {
+    padding: 0 15px;
+    list-style-type: none;
+}
+
+.socialLinks li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.footerYoutube{
+    color: red;
+}
+
+.footerInstagram {
+    color: #8a369b;
+}
