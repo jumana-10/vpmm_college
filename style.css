@@ -370,7 +370,8 @@ footer {
 .adBody p {
     margin: 0 20px 10px 5px;
     line-height: 1.8;
-    color: var(--textColor);
+    color: #8b95a7;
+    font-weight: 500;
 }
 
 .achievement {
@@ -401,17 +402,25 @@ footer {
 }
 
 .aboutCard {
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
 .aluminiAchive,
 .participation,
 .award,
 .industry {
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding: 20px;
     margin: 15px;
     border-radius: 10px;
+}
+
+.cardIcon {
+    background-color: #f3c326;
+    width: 55%;
+    height: 2px;
+    margin-left: 20px;
 }
 
 .cardTitle i {
@@ -420,8 +429,9 @@ footer {
 }
 
 .cardBody {
-    padding-top: 40px;
-    color: blue;
+    padding-top: 30px;
+    color: #7491c2;
+    font-weight: 500;
 }
 
 .cardBody h4 {
@@ -436,8 +446,8 @@ footer {
 }
 
 .cardBody p {
-    font-size: 16px;
-    line-height: 1.2;
+    font-size: 14px;
+    line-height: 1.4;
 }
 
 /* advandage End */
@@ -454,9 +464,11 @@ footer {
 }
 
 .aboutContent p {
-    color: var(--textColor);
+    /* color: var(--textColor); */
     line-height: 1.8;
-    margin: 5px 30px 5px 0;
+    margin: 5px 15px 5px 0;
+    color: #7491c2;
+    font-weight: 400;
 }
 
 /* about end */
@@ -464,7 +476,7 @@ footer {
 /* News & update */
 
 .newsUpdateContainer {
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(246, 246, 246);
 }
 
 .newsUpdateTitle {
@@ -481,8 +493,9 @@ footer {
 }
 
 .circular {
-    border: 1px solid black;
-    margin-right: 22%;
+    /* border: 1px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin:0 18%;
     background-color: #ffffff;
 }
 
@@ -496,12 +509,18 @@ footer {
 .card4,
 .card5,
 .card6 {
-    border: 1px solid black;
+    border-top: 1px solid rgb(235, 235, 235);
     margin-bottom: 10px;
 }
 
+.flex-card {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 10px;
+}
+
 .date {
-    border: 1px solid rgb(219, 33, 33);
     padding: 0 10px 10px 10px;
     background-color: var(--fontColor);
     color: #ffffff;
@@ -511,17 +530,30 @@ footer {
     margin: 10px 0;
 }
 
-.new span {
+.new ,
+.news span {
     color: red;
 }
 
 .new p {
-    padding: 0 5px 40px 15px;
+    padding: 5px 5px 40px 20px;
+    font-size: 14px;
+}
+
+.news p {
+    padding: 0 10px 0 20px;
+    color: red;
+    font-size: 14px;
+}
+
+.new p span{
+    font-size: 14px;
 }
 
 .newsEvents {
-    border: 1px solid black;
-    margin-left: 22%;
+    /* border-top: 1px solid rgb(255, 255, 255); */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin:0 18%;
     background-color: #ffffff;
 }
 
